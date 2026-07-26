@@ -206,44 +206,6 @@ Below is a complete side-by-side preview showcasing the responsiveness and user 
 
 ---
 
-## 🛠️ Project Structure Overview
-
-```
-eway-shopy/
-├── app/                        # Next.js 16 App Router pages & server routes
-│   ├── (storefront)/           # Public e-commerce & C2C routes
-│   │   ├── page.tsx            # Homepage
-│   │   ├── products/[slug]/    # Product detail page
-│   │   ├── categories/         # Category catalog
-│   │   ├── brands/             # Brand pages
-│   │   ├── marketplace/        # Peer-to-peer used item listings
-│   │   ├── cart/               # Cart drawer & page
-│   │   ├── checkout/           # Checkout workflow
-│   │   ├── profile/            # User account settings
-│   │   ├── orders/             # Order history & tracking
-│   │   ├── notifications/      # In-app notification center
-│   │   └── blog/               # Article & news feed
-│   └── admin/                  # Administrative operations portal
-│       ├── page.tsx            # Analytics dashboard
-│       ├── products/           # Catalog management
-│       ├── inventory/stock/    # Real-time stock control
-│       ├── orders/             # Order processing, packing, shipping
-│       ├── marketing/          # Coupons & discounts engine
-│       ├── content/            # CMS for pages, slides, popups
-│       └── settings/           # System & company config
-├── components/                 # UI components
-│   ├── ui/                     # Radix / shadcn atomic primitives
-│   ├── storefront/             # Storefront headers, cards, footers
-│   └── admin/                  # Data tables, metrics, chart widgets
-├── modules/                    # Feature domain business logic
-│   ├── returns/                # Automated return & refund workflows
-│   ├── marketplace/            # C2C messaging & listing rules
-│   └── tax/                    # Dynamic GST & HSN calculators
-├── lib/                        # Core backend clients & helper utilities
-│   ├── supabase/               # Database client & auth interfaces
-│   ├── email/                  # Resend & Nodemailer dispatchers
-│   └── razorpay/               # Payment gateway helper methods
-└── sql/                        # Schema migrations, RLS & triggers
 ```
 
 ---
